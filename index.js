@@ -55,23 +55,23 @@ loadModule()
 
 //14. Destructuring
 
-// const arrayIng = ["value 1", "value 2", "value 3"]
-// const [result1, , result3] = arrayIng;
+const arrayIng = ["value 1", "value 2", "value 3"]
+const [result1, , result3] = arrayIng;
 
-// console.log(result3)
+console.log(result3)
 
-// const myObj = {
-//     name: "Tobi",
-//     car: "Toyota",
-//     age: 1000
-// }
+const myObj = {
+    name: "Tobi",
+    car: "Toyota",
+    age: 1000
+}
 
-// const { car, name: fullName, age = 500}= myObj
-// console.log(age)
+const { car, name: fullName, age = 500}= myObj
+console.log(age)
 
-// async function fetchMTN() {
-//   return 20;
-// }
+async function fetchMTN() {
+  return 20;
+}
 
 // function weAreTesting(){
 // try {
