@@ -85,7 +85,7 @@ async function fetchMTN() {
 
 // }
 
-// console.log("We are still running");
+console.log("We are still skipping");
 
 function fetchFromMTN() {
   return 1;
