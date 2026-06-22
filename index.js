@@ -13,13 +13,13 @@ import { vat as foodVat, meat } from "./food.js";
 // console.log(module.invoices());
 // });
 
-// async function loadModule() {
-//   const module = await import("./our_modules/index.js"); // Awaiting dynamic import or API call
-//   console.log(module.payments());
-//   console.log(module.invoices());
-// }
+async function loadModule() {
+  const module = await import("./our_modules/index.js"); // Awaiting dynamic import or API call
+  console.log(module.payments());
+  console.log(module.invoices());
+}
 
-// loadModule()
+loadModule()
 
 // const module = await import("./our_modules/index.js");
 // console.log(module.payments());
