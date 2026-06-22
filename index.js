@@ -69,9 +69,9 @@ const myObj = {
 const { car, name: fullName, age = 500}= myObj
 console.log(age)
 
-// async function fetchMTN() {
-//   return 20;
-// }
+async function fetchMTN() {
+  return 20;
+}
 
 // function weAreTesting(){
 // try {
