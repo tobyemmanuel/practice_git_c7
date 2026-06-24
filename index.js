@@ -8,10 +8,10 @@ import { payments } from "./our_modules/payments.js";
 import { invoices } from "./our_modules/invoice.js"
 import { payments, invoices } from "./our_modules/index.js";
 
-// import("./our_modules/index.js").then((module) => {
-// console.log(module.payments());
-// console.log(module.invoices());
-// });
+import("./our_modules/index.js").then((module) => {
+console.log(module.payments());
+console.log(module.invoices());
+});
 
 async function loadModule() {
   const module = await import("./our_modules/index.js"); // Awaiting dynamic import or API call
