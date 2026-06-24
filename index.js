@@ -4,9 +4,9 @@ import { default as SomeVehicle, noOfCars } from "./vehicle.js";
 import { vat as foodVat, meat } from "./food.js";
 
 // imports from our modules
-// import { payments } from "./our_modules/payments.js";
-// import { invoices } from "./our_modules/invoice.js"
-// import { payments, invoices } from "./our_modules/index.js";
+import { payments } from "./our_modules/payments.js";
+import { invoices } from "./our_modules/invoice.js"
+import { payments, invoices } from "./our_modules/index.js";
 
 // import("./our_modules/index.js").then((module) => {
 // console.log(module.payments());
